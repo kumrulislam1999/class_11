@@ -50,6 +50,7 @@ a {
     font-size: 20px;
     font-weight: light, bold;
     border-radius: 3px;
+    color: #0f2f44;
 }
 
 /* Start Common Section */
@@ -81,6 +82,13 @@ a {
     font-size: 16px;
     color: #0f2f44;
     font-weight: 400px;
+}
+
+.sectionDetails h3 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #222222;
 }
 
 /* Start Section Common Code */
@@ -154,12 +162,14 @@ a {
     font-size: 50px;
     font-weight: 300;
     line-height: 70px;
+    color: #0f2f44;
 }
 
 #bannarSection .sectionHeading h1 {
     font-size: 80px;
     font-weight: 400;
     text-transform: uppercase;
+    color: #0f2f44;
 }
 
 #bannarSection .sectionHeading h3 {
@@ -167,18 +177,24 @@ a {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 17px;
+    color: #8484bf;
 }
 
 #bannarSection .sectionDetails p {
     font-size: 14px;
     line-height: 24px;
     padding: 33px 0;
+    color: #444444;
+}
+
+#bannarSection .sectionDetails a {
+    background-color: #8484bf;
+    color: #ffffff;
 }
 
 #bannarSection .sectionDetails ul>li {
     display: inline-block;
     margin-right: 20px;
-
 }
 
 #bannarSection .sectionDetails .bg_none {
@@ -212,6 +228,11 @@ a {
 #aboutSection .sectionDetails p {
     line-height: 44px;
     padding: 34px;
+}
+
+#aboutSection .sectionDetails a.bg_white {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px 5px #e2e2e2;
 }
 
 /* End About Section */
@@ -252,6 +273,18 @@ a {
     box-shadow: 5px 5px 1px 10px #e5e5e5;
 }
 
+#skillSection .innerItem:nth-child(2) progress {
+    accent-color: #5d3b15;
+}
+
+#skillSection .innerItem:nth-child(3) progress {
+    accent-color: #344a1f;
+}
+
+#skillSection .innerItem:last-child progress {
+    accent-color: #392960;
+}
+
 /* End Skill Section */
 
 
@@ -276,11 +309,6 @@ a {
     background-color: #ededed;
     border-radius: 5px;
 
-}
-
-#serviceSection .item:nth-child(2) {
-    background: #0f2f44;
-    padding: 30px 0;
 }
 
 #serviceSection .item>h3 {
@@ -309,6 +337,16 @@ a {
     font-size: 14px;
     line-height: 24px;
     padding-top: 24px;
+    color: #444444;
+}
+
+#serviceSection .item:nth-child(2) {
+    background: #0f2f44;
+    padding: 30px 0;
+}
+
+#serviceSection .item:nth-child(2) h3 {
+    color: #ffffff;
 }
 
 /* Start Service Section */
@@ -351,7 +389,7 @@ a {
 
 #testimonialSection .row {
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 #testimonialSection .item {
@@ -369,9 +407,9 @@ a {
     line-height: 24px;
 }
 
-#testimonialSection .innerDetails h6 {
+#testimonialSection .innerDetails h3 {
     font-size: 20px;
-    padding-top: 34px;
+    padding-top: 45px;
     padding-bottom: 12px;
 }
 
@@ -396,7 +434,11 @@ a {
     color: #777777;
 }
 
-
+#blogSection p {
+    color: #777777;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
 
 #blogSection .item>img {
     display: block;
@@ -407,33 +449,37 @@ a {
     font-size: 14px;
 }
 
-#blogSection .item h3 {
-    font-size: 20px;
-    font-weight: 300;
-    color: #222222;
-}
-
 #blogSection .item li {
     display: inline-block;
     margin: 30px 10px;
+    margin-left: 0;
 }
 
 
-#blogSection .item li>a {
+#blogSection .item a {
     background: none;
     padding: 0;
-    color: #777777;
-
 }
 
 #blogSection .item:nth-child(2) {
     background-color: #0f2f44;
+}
+
+#blogSection .item:nth-child(2) h3,
+#blogSection .item:nth-child(2) p,
+#blogSection .item:nth-child(2) a {
     color: #ffffff;
+    padding: 20px 15px;
 }
 
 #blogSection .sectionDetails>a {
     display: block;
     margin: 60px auto;
+}
+
+#blogSection .side_arrow {
+    background-color: #ffffff;
+    padding: 40px;
 }
 
 /* Start Blog Section */
