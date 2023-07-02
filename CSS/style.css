@@ -337,6 +337,9 @@ a {
 }
 
 /* Start Portfolio Section */
+
+
+/* Start Testimonial Section */
 #testimonialSection {
     padding: 160px 0;
 }
@@ -375,6 +378,66 @@ a {
 /* End Testimonial Section */
 
 
-/* Start Testimonial Section */
+
+/* Start Blog Section */
+
+#blogSection .sectionHeading {
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+#blogSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blogSection .item {
+    width: calc((100% - 80px) / 3);
+    color: #777777;
+}
+
+
+
+#blogSection .item>img {
+    display: block;
+    margin: 30px auto;
+}
+
+#blogSection .item p {
+    font-size: 14px;
+}
+
+#blogSection .item h3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #222222;
+}
+
+#blogSection .item li {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+
+#blogSection .item li>a {
+    background: none;
+    padding: 0;
+    color: #777777;
+
+}
+
+#blogSection .item:nth-child(2) {
+    background-color: #0f2f44;
+    color: #ffffff;
+}
+
+#blogSection .sectionDetails>a {
+    display: block;
+    margin: 60px auto;
+}
+
+/* Start Blog Section */
+
+
 
 /* End Main Section */
